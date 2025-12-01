@@ -32,14 +32,15 @@ Vá conhecer os cursos gratuitos dele — você vai aprender sorrindo!
 
 - 🗃️ cursos
   - 🗂️ **html5_css3**
-    - 📁 1_modulo
-        - 📄 1.0_exercicio
-        - 📄 2.0_exercicio
-        - 📄 ...
-    - 📁 2_modulo
-        - 📄 1.0_exercicio
-        - 📄 2.0_exercicio
-        - 📄 ...
+    - 📁 desafios
+        - 📁df01
+            - 📄 index.html
+            - ...
+        - 📁
+    - 📁 modulo_01
+        - 📁 cap4_aula1
+            - 📄 index.html
+            - 📄 ...
     - 📁...
     - 📁 5_modulo
  
@@ -47,11 +48,9 @@ Vá conhecer os cursos gratuitos dele — você vai aprender sorrindo!
 
 ## 🚀 Como usar
 
-- Navegue até a pasta da section desejada (`cursos/html5_css3/1_modulo`, por exemplo).  
+- Navegue até a pasta da section desejada (`cursos/html5_css3/modulo_01/cap4_aula1`, por exemplo).  
 - Cada pasta está organizada em seções conforme o curso oficial, garantindo coerência e progressão lógica.  
-- Leia as anotações 📄 em ordem numérica para compreender os conceitos passo a passo.  
-- As anotações principais terão números com ".0" (ex: `1.0`, `2.0`) representando os temas principais.  
-  - As anotações derivadas (ex: `1.1`, `1.2`) servem como exercicios complementares.  
+- Leia os arquivos `.html` 📄 ➡️ 📁 das pastas em ordem numérica para compreender os conceitos passo a passo.    
 
 ---
 
@@ -80,7 +79,7 @@ Vá conhecer os cursos gratuitos dele — você vai aprender sorrindo!
 
 ## 🌱 Objetivo futuro
 
-* Pretendo expandir para criar mais cursos
+* Pretendo expandir para mais cursos
 
 ---
 
