@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/*REGRA PARA MELHORAR COMPATIBILIDADE*/
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    background-color: blue;
+    color: aquamarine;
+}
+
+h1 {
+    color: aqua;
+}
+
+h2 {
+    color: aliceblue;
+}
