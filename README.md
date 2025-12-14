@@ -1,6 +1,6 @@
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-blue)
-![GitHub repo size](https://img.shields.io/github/repo-size/DevGustavoJeferson/caderno_ingles)
-![GitHub last commit](https://img.shields.io/github/last-commit/DevGustavoJeferson/caderno_ingles)
+![GitHub repo size](https://img.shields.io/github/repo-size/DevGustavoJeferson/cursos_gustavo_guanabara)
+![GitHub last commit](https://img.shields.io/github/last-commit/DevGustavoJeferson/cursos_gustavo_guanabara)
 
 # 📚 Cursos - Gustavo Guanabara
 
