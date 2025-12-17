@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 15 - Aula 03</title>
+    <style>
+        body > h2 {
+            display: none;
+        }
+
+        body:hover > h2 {
+            display: block;
+            background-color: aquamarine;
+            text-align: center;
+        }
+
+        div {
+            display:inline-block;
+            background-color: brown;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+        }
+
+        div:hover{
+            background-color: blue;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div>espaço 01</div>
+    <div>espaço 02</div>
+    <div>espaço 03</div>
+    <div>espaço 04</div>
+    <h1>Pseudoclasses</h1>
+    <p>São relacionadas por uma tag, ou uma classe</p>
+    <p>Elas basicamente dão uma certa função para a classe ou tag selecionada</p>
+    <p>Sua sintaxe segue basicamente:</p>
+    <p>element:function</p>
+    <p>O elemento vai ser afetado pela função, os dois pontos indica uma pseudoclasse</p>
+    <p>Algumas funções:
+        <li>
+            <ul>hover - quando passar o mouse em cima haverá alguma mudança</ul>
+        </li>
+    </p>
+    <h2>Child</h2>
+    <p>Uma tag dentro de outra é uma relação de hierarquia de pai e filho, essa hierarquia podemos personalizar no CSS.
+    </p>
+    <p>Sua sintaxe é:<br>Pseudoclass <strong>></strong> tagChild</p>
+</body>
+</html>
