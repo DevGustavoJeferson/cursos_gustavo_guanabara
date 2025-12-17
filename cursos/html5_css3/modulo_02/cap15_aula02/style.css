@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.titulo {
+    color: red;
+    text-align: center;
+    font-style: italic;
+}
+
+.subtitulo {
+    background-color: black;
+}
