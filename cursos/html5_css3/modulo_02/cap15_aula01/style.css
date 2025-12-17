@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+    background-color: aqua;
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    background-color: rgb(51, 51, 51);
+    color: aliceblue;
+}
+
+p#redRight {
+    background-color: red;
+    text-align: right;
+}
