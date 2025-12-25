@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colgroup</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        th , td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        col.cIdade {
+            border: 2px solid maroon;
+            background-color: palevioletred;
+            width: 80px;
+        }
+
+        col.cProfCidad {
+            width: 200px;
+            background-color: gray;
+            border: 2px solid blueviolet;
+        }
+
+        #container {
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <table>
+            <colgroup>
+                <col class="cNome">
+                <col class="cIdade">
+                <col class="cProfCidad" span="2">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Idade</th>
+                    <th scope="col">Profissao</th>
+                    <th scope="col">Cidade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>João</td>
+                    <td>29</td>
+                    <td>Desenvolvedor</td>
+                    <td>São Paulo</td>
+                </tr>
+                <tr>
+                    <td>Carla</td>
+                    <td>34</td>
+                    <td>Analista</td>
+                    <td>Campinas</td>
+                </tr>
+                <tr>
+                    <td>Pedro</td>
+                    <td>21</td>
+                    <td>Estudante</td>
+                    <td>Recife</td>
+                </tr>
+                <tr>
+                    <td>Fernanda</td>
+                    <td>27</td>
+                    <td>Designer</td>
+                    <td>Florianópolis</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
