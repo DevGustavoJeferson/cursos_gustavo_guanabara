@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 02</title>
+</head>
+<body>
+    <h1>Utilizando a tag &lt;form&gt; com mais especificações</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="iusu">User: </label>
+            <input type="text" name="usu" id="iusu" required maxlength="20">
+        </p>
+
+        <p>
+            <label for="isenha"></label>Senha:
+            <input type="password" id="isenha" required minlength="8" maxlength="20" size="30" placeholder="minimo 8 e maximo 20" autocomplete="current-password ">
+        </p>
+            <input type="submit"> 
+    </form>
+</body>
+</html>
