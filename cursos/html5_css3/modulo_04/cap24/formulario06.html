@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais fórmularios</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Cor</legend>
+            <label for="icor">Cor: <input type="color" name="cor" id="icor"></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Nível de satisfação</legend>
+            <range>Nível de satisfação<input type="range" id="isatisfation" value="1" min="1" max="10"></range>
+        </fieldset>
+
+        <p>
+            <input type="submit">
+        </p>
+    </form>
+</body>
+</html>
