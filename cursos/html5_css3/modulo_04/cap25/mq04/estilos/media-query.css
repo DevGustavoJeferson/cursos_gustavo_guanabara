@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+/*TODAS AS DEMAIS MÍDIAS*/
+
+/*Typical device breakpoint*/
+/*
+Celular:320px até 577px
+Tablet:578px até 768px
+PC:768px até 1399px
+Telas grandes: 1400px +
+*/
+
+/*IMPRESSORA*/
+@media print {
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    body {
+        background-image: url(../img/back-print.jpg); /*Não tem background para impressão*/
+    }
+
+    main {
+        border: 2px solid black;
+    }
+
+    main::after {
+        content: Site desenvolvido por DevGustavoJeferson;
+    }
+
+    h1 {
+        color: black;
+        text-shadow: none;
+    }
+
+    img#ico-phone {display: none;}
+    img#ico-tablet {display: none;}
+    img#ico-impressora {display: block; margin: auto;}
+    img#ico-pc {display: none;}
+    img#ico-tv {display: none;}
+}
+
+/*Tablet*/
+@media screen and (min-width: 578px) and (max-width: 768px){
+    body {
+        background-image: url(../img/back-tablet.jpg);
+    }
+
+    img#ico-phone {display: none;}
+    img#ico-tablet {display: block; margin: auto;}
+    img#ico-impressora {display:none;}
+    img#ico-pc {display: none;}
+    img#ico-tv {display: none;}
+}
+
+@media screen and (min-width:769px) and (max-width: 1400px) {
+    body {
+        background-image: url(../img/back-pc.jpg);
+        background-size: cover;
+    }
+
+    img#ico-phone {display: none;}
+    img#ico-tablet {display: none;}
+    img#ico-impressora {display:none;}
+    img#ico-pc {display: block; margin: auto;}
+    img#ico-tv {display: none;}
+}
+
+@media screen and (min-width: 1401px) {
+    body {
+        background-image: url(../img/icon-tv.png);
+    }
+
+    img#ico-phone {display: none;}
+    img#ico-tablet {display: none;}
+    img#ico-impressora {display:none;}
+    img#ico-pc {display: none;}
+    img#ico-tv {display: block; margin: auto;}
+}

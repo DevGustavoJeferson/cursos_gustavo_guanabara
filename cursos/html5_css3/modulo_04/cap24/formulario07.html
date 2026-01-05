@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Localidade</legend>
+            <label for="iPaises">Paises: </label>
+            <select name="paises" id="iPaises">
+                <optgroup label="America">
+                    <option value="BR">Brasil</option>
+                    <option value="AR">Argentina</option>
+                    <option value="PR">Paraguai</option>
+                </optgroup>
+            
+                <optgroup label="Asia">
+                    <option value="JP">Japão</option>
+                    <option value="CH">China</option>
+                </optgroup>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Profissões</legend>
+            <label for="iprofis">Profissoes <input type="text" id="iprofis" list="lstprofis"></label>
+            <datalist id="lstprofis">
+                <option value="CAB">Cabelereiro</option>
+                <option value="ACG">Açougueiro</option>
+                <option value="MAS">Massagista</option>
+            </datalist>
+        </fieldset>
+
+        <fieldset>
+            <legend>Feedback</legend>
+            <label for="iComent">Comentario: <br></label>
+            <textarea name="coment" id="iComent" cols="50" rows="20"></textarea>
+            <label for="iAvaliation"><br>Avaliação:</label>
+            <input type="range" id="iAvaliation" min="1" max="10">
+        </fieldset>
+        <p><input type="submit"></p>
+    </form>
+</body>
+</html>

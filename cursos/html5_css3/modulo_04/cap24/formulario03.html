@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de fomulario</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="iname">Nome: <input type="text" name="name" id="iname" required maxlength="31" size="50" placeholder="Nome completo" autocomplete="off"></label>
+        </p>
+        <p>
+            <label for="imedia">Id: <input type="number" id="imedia" name="media" placeholder="id do Aluno" minlength="10" maxlength="10" required="on"></label>
+        </p>
+        <p>
+            <label for="inota">Nota: <input type="number" maxlength="2" placeholder="1 bimestre" step="0.1"></label>
+        </p>
+        <p>
+            <label for="imes">Mes: <input type="month" value="2020-08" id="imes"></label>
+        </p>
+        <p>
+            <label for="ianiversario">Aniversario: <input type="date" id="ianiversario" value="2001-08-08"></label>
+        </p>
+        <p>
+            <label for="ihora_prova">Hora da prova: <input type="time" id="ihora_prova" value="14:30"></label>
+        </p>
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>

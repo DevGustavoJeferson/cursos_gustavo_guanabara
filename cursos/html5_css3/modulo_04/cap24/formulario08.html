@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            Output and Javascript
+
+            <p>
+                <label for="in1">Primeiro algarismo: </label>
+                <input type="number" id="in1">
+            </p>
+            <p>
+                <label for="in2">Segundo algarismo: </label>
+                <input type="number" id="in2" oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+            </p>
+            <p>
+                <label for="isoma">Soma: </label>
+                <output id="isoma"></output>
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>

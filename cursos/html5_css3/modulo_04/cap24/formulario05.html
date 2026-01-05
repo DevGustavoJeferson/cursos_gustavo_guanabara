@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Sexo</legend>
+            <label for="imasc"><input type="radio" name="sexo" id="imasc" value="m">Masculino<br></label>
+            <label for="ifem"><input type="radio" name="sexo" id="ifem" value="f">Feminino<br></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Tecnologias aprendidas</legend>
+            <label for="ihTML5"><input type="checkbox" name="hTML5" id="ihTML5" checked>HTML5<br></label>
+            <label for="icSS3"><input type="checkbox" name="cSS3" id="icSS3" checked>CSS3<br></label>
+            <label for="ijvscript"><input type="checkbox" name="jvscript" id="ijvscript">Javascript<br></label>
+        </fieldset>
+
+        <p>
+            <input type="submit">
+        </p>
+    </form>
+</body>
+</html>
