@@ -1,13 +1,54 @@
 /* 
   Variáveis para cores:
-  --fundo-principal
-  --texto
-  --texto-inverso
-  --destaque
-  --destaque-inverso
-  --fundo-card
-*/
 
-h1 {
-  color: red;
+*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --fundo-principal: #f5f5f5;
+  --texto: #222222;
+  --texto-inverso: #ffffff;
+  --destaque: #0077ff;
+  --destaque-inverso: #66bbff;
+  --fundo-card: #ffffff;
+}
+
+body {
+  background-color: var(--fundo-principal);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5em;
+  color: var(--texto);
+}
+
+header {
+  background-color: var(--destaque);
+  color: var(--texto);
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+}
+
+nav#menu > ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+nav#menu > ul > li > a {
+  text-decoration: none;
+  color: var(--texto-inverso);
+  font-weight: 600;
+  padding: 12px 10px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+nav#menu > ul > li > a:hover {
+  background-color: var(--destaque-inverso);
+  color: var(--destaque);
 }
