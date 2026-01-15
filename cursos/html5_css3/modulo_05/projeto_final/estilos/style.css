@@ -52,3 +52,57 @@ nav#menu > ul > li > a:hover {
   background-color: var(--destaque-inverso);
   color: var(--destaque);
 }
+
+main {
+  display: grid;
+  grid-template-columns: auto 90% auto;
+  gap: 20px;
+}
+
+section#ficha {
+  background-color: var(--fundo-card);
+  padding: 20px;
+  border-radius: 8px;
+  grid-column: 2;
+  margin-top: 10px;
+}
+
+section#ficha > img {
+  width: 200px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  border: 5px solid var(--fundo-card);
+  outline: 5px solid var(--destaque);
+  
+}
+
+section#ficha > h1 {
+  color: var(--destaque);
+  text-align: center;
+  padding: 15px 0px;
+  font-size: 1.5em;
+}
+
+div#social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  gap: 10px;
+  padding: 5px;
+  border: 2px solid black;
+  margin-top: 15px;
+}
+
+div#social > a {
+  color: var(--destaque);
+  transition: 0.5s;
+}
+
+div#social > a:hover {
+  color: var(--destaque-inverso);
+}
