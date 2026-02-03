@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NACIONALIDADE</title>
+</head>
+<body>
+    <h1>Qual a sua NACIONALIDADE?</h1>
+    <label for="ipais">País de nascimento:
+        <input type="text" id="ipais" name="pais" maxlength="20" placeholder="ex:Estados Unidos">
+    </label>
+    <input type="submit" value="Enviar" onclick="verificar()">
+    <div id="res"></div>
+
+    <script>
+        function verificar(){
+            var pais = window.document.querySelector('input#ipais').value
+            var res = window.document.querySelector('div#res')
+            if (pais == "Brasil") {
+                res.innerHTML = `<p>Ta enrolado, você é Brasileiro kkkkkk</p>`
+            } else {
+                res.innerHTML = `<p>Voce nasceu no ${pais} voce é <strong>estrangeiro!<strong></p>`
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(102, 102, 235);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    text-align: left;
+    box-shadow: 2px 2px 10px black;
+    border: 1px solid black;
+}
+
+div {
+    padding: 20px;
+}
+
+div#contar {
+    text-align: center;
+}
+
+div#contar > input {
+    border: 2px solid black;
+    font-size: 1.5em;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
