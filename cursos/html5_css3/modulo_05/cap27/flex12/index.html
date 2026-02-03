@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible box</title>
+    <style>
+
+        .container {
+            background-color: brown;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+
+        .items {
+            background-color: black;
+            border: 2px solid blue;
+            margin: 2px;
+            text-align: center;
+            color: white;
+        }
+
+        div#c1 {
+            /*flex-shrink: 2;
+            flex-grow: 50;
+            flex-basis: 200px;*/
+
+            flex: 50 2 200px;
+        }
+
+        div#c2 {
+            flex-shrink: 1;
+            flex-grow: 200;
+            flex-basis: 200px;
+        }
+
+        div#c3 {
+            flex-shrink: 1;
+            flex-grow: 100;
+            flex-basis: 200px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Shorthand Flex</h1>
+    <p>Mais que uma simplificação uma RECOMENDAÇÃO da W3C</p>
+
+    <div class="container">
+        <div class="items" id="c1">A</div>
+        <div class="items" id="c2">B</div>
+        <div class="items" id="c3">C</div>
+    </div>
+</body>
+</html>

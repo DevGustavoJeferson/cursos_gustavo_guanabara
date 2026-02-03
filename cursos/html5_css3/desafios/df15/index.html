@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 15</title>
+    <style>
+        body {
+            height: 97vh;
+            max-width: 1000px;
+            margin: auto;
+
+            display: grid;
+            grid-template: repeat(5 , 1fr) / repeat(4 , 1fr); 
+            gap: 5px;
+        }
+
+        header {
+            grid-area: 1 / 1 / span 1 / span 4;
+
+            text-align: center;
+            border: 2px solid red;
+        }
+
+        main {
+            grid-area: 2 / 1 / span 3 / span 2;
+
+            text-align: center;
+            border: 2px solid aqua;
+        }
+
+        div {
+            grid-area: 2 / 3 / span 3 / span 2;
+
+            text-align: center;
+            border: 2px solid gray;
+        }
+
+        footer {
+            grid-area: 5 / 1 / span 1 / span 4;
+
+            text-align: center;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p>Cabeçalho</p>
+    </header>
+    <main>
+        <p>Principal</p>
+    </main>
+    <div>
+        <p>Complemento</p>
+    </div>
+    <footer>
+        <p>Rodapé</p>
+    </footer>
+</body>
+</html>

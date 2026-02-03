@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Basis</title>
+        <style>
+        .container {
+            background-color: brown;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+        .items {
+            background-color: black;
+            border: 2px solid blue;
+            margin: 2px;
+            text-align: center;
+            color: white;
+            flex-basis: 150px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flex-Basis</h1>
+    <p>Propriedade que altera o tamanho dos itens em um container, seu valor padrão é "auto", se adaptando ao contéudo automaticamente, porém podemos colocar um valor fixo que se altera para não quebrar.</p>
+    <div class="container">
+        <div class="items">A - Se Adaptando ao contéudo</div>
+        <div class="items">B</div>
+        <div class="items">C</div>
+        <div class="items">D</div>
+        <div class="items">E</div>
+        <div class="items">F</div>
+        <div class="items">G</div>
+    </div>
+</body>
+</html>
