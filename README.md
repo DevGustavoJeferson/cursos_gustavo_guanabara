@@ -9,18 +9,32 @@
 
 ---
 
-## Projetos desenvolvidos nos cursos
+# 🚀 Projetos desenvolvidos nos cursos
 
-1. [Projeto Android - HTML5 e CSS3](https://devgustavojeferson.github.io/cursos_gustavo_guanabara/cursos/html5_css3/modulo_02/cap17_projeto/index.html)
-2. [Projeto Cordel - HTML5 e CSS3](https://devgustavojeferson.github.io/cursos_gustavo_guanabara/cursos/html5_css3/modulo_03/cap20_projeto/index.html)
-3. [Projeto Mini Portifólio - HTML5 e CSS3](https://devgustavojeferson.github.io/cursos_gustavo_guanabara/cursos/html5_css3/modulo_04/cap23_projeto/index.html)
-4. [Projeto Tela de Login - HTML5 e CSS3](https://devgustavojeferson.github.io/cursos_gustavo_guanabara/cursos/html5_css3/modulo_04/cap26_projeto/index.html)
-5. [Projeto Portifólio - HTML5 e CSS3](https://github.com/DevGustavoJeferson/cursos_gustavo_guanabara/tree/main/cursos/html5_css3/modulo_05/projeto_final)
-6. [Exércicio Hora do dia - Javascript](https://devgustavojeferson.github.io/cursos_gustavo_guanabara/cursos/javascript/aula13_exercicios/ex014/modelo.html) 
-7. [Verificador de idade - Javascript](https://devgustavojeferson.github.io/cursos_gustavo_guanabara/cursos/javascript/aula13_exercicios/ex015/modelo.html)
-8. [Contador de passos - Javascript](https://devgustavojeferson.github.io/cursos_gustavo_guanabara/cursos/javascript/aula14_exercicios/ex016/modelo.html)
-9. [Gerador de Tabuada - Javascript](https://devgustavojeferson.github.io/cursos_gustavo_guanabara/cursos/javascript/aula14_exercicios/ex017/modelo.html)
-10. [Analisador de números - Javascript](https://devgustavojeferson.github.io/cursos_gustavo_guanabara/cursos/javascript/aula17_exercicios/ex18/modelo.html)
+### 📱 HTML5 & CSS3
+Projetos focados em estrutura, responsividade e layout moderno.
+
+- 📲 **[Projeto Android](https://devgustavojeferson.github.io/cursos_gustavo_guanabara/cursos/html5_css3/modulo_02/cap17_projeto/index.html)**  
+- 📜 **[Projeto Cordel](https://devgustavojeferson.github.io/cursos_gustavo_guanabara/cursos/html5_css3/modulo_03/cap20_projeto/index.html)**  
+- 🧑‍💻 **[Mini Portfólio](https://devgustavojeferson.github.io/cursos_gustavo_guanabara/cursos/html5_css3/modulo_04/cap23_projeto/index.html)**  
+- 🔐 **[Tela de Login](https://devgustavojeferson.github.io/cursos_gustavo_guanabara/cursos/html5_css3/modulo_04/cap26_projeto/index.html)**  
+- 🌐 **[Projeto Portfólio Final](https://github.com/DevGustavoJeferson/cursos_gustavo_guanabara/tree/main/cursos/html5_css3/modulo_05/projeto_final)**  
+
+---
+
+### ⚙️ JavaScript
+Exercícios práticos focados em lógica, condições e laços de repetição.
+
+- ⏰ **[Hora do Dia](https://devgustavojeferson.github.io/cursos_gustavo_guanabara/cursos/javascript/aula13_exercicios/ex014/modelo.html)**  
+- 🎂 **[Verificador de Idade](https://devgustavojeferson.github.io/cursos_gustavo_guanabara/cursos/javascript/aula13_exercicios/ex015/modelo.html)**  
+- 👣 **[Contador de Passos](https://devgustavojeferson.github.io/cursos_gustavo_guanabara/cursos/javascript/aula14_exercicios/ex016/modelo.html)**  
+- ✖️ **[Gerador de Tabuada](https://devgustavojeferson.github.io/cursos_gustavo_guanabara/cursos/javascript/aula14_exercicios/ex017/modelo.html)**  
+- 🔢 **[Analisador de Números](https://devgustavojeferson.github.io/cursos_gustavo_guanabara/cursos/javascript/aula17_exercicios/ex18/modelo.html)**  
+
+---
+
+📌 *Todos os projetos fazem parte do processo de aprendizado prático, com foco em reforçar fundamentos e criar uma base sólida para projetos maiores.*
+
 
 ## 🙏 Agradecimento Especial
 
