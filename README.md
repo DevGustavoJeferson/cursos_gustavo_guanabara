@@ -18,7 +18,7 @@ Projetos focados em estrutura, responsividade e layout moderno.
 - 📜 **[Projeto Cordel](https://devgustavojeferson.github.io/cursos_gustavo_guanabara/cursos/html5_css3/modulo_03/cap20_projeto/index.html)**  
 - 🧑‍💻 **[Mini Portfólio](https://devgustavojeferson.github.io/cursos_gustavo_guanabara/cursos/html5_css3/modulo_04/cap23_projeto/index.html)**  
 - 🔐 **[Tela de Login](https://devgustavojeferson.github.io/cursos_gustavo_guanabara/cursos/html5_css3/modulo_04/cap26_projeto/index.html)**  
-- 🌐 **[Projeto Portfólio Final]([https://github.com/DevGustavoJeferson/cursos_gustavo_guanabara/tree/main/cursos/html5_css3/modulo_05/projeto_final](https://devgustavojeferson.github.io/cursos_gustavo_guanabara/cursos/html5_css3/modulo_05/projeto_final/index.html))**  
+- 🌐 **[Projeto Portfólio Final](https://devgustavojeferson.github.io/cursos_gustavo_guanabara/cursos/html5_css3/modulo_05/projeto_final/index.html)**  
 
 ---
 
