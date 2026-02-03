@@ -9,6 +9,19 @@
 
 ---
 
+## Projetos desenvolvidos nos cursos
+
+1. [Projeto Android - HTML5 e CSS3](https://devgustavojeferson.github.io/cursos_gustavo_guanabara/cursos/html5_css3/modulo_02/cap17_projeto/index.html)
+2. [Projeto Cordel - HTML5 e CSS3](https://devgustavojeferson.github.io/cursos_gustavo_guanabara/cursos/html5_css3/modulo_03/cap20_projeto/index.html)
+3. [Projeto Mini Portifólio - HTML5 e CSS3](https://devgustavojeferson.github.io/cursos_gustavo_guanabara/cursos/html5_css3/modulo_04/cap23_projeto/index.html)
+4. [Projeto Tela de Login - HTML5 e CSS3](https://devgustavojeferson.github.io/cursos_gustavo_guanabara/cursos/html5_css3/modulo_04/cap26_projeto/index.html)
+5. [Projeto Portifólio - HTML5 e CSS3](https://github.com/DevGustavoJeferson/cursos_gustavo_guanabara/tree/main/cursos/html5_css3/modulo_05/projeto_final)
+6. [Exércicio Hora do dia - Javascript](https://devgustavojeferson.github.io/cursos_gustavo_guanabara/cursos/javascript/aula13_exercicios/ex014/modelo.html) 
+7. [Verificador de idade - Javascript](https://devgustavojeferson.github.io/cursos_gustavo_guanabara/cursos/javascript/aula13_exercicios/ex015/modelo.html)
+8. [Contador de passos - Javascript](https://devgustavojeferson.github.io/cursos_gustavo_guanabara/cursos/javascript/aula14_exercicios/ex016/modelo.html)
+9. [Gerador de Tabuada - Javascript](https://devgustavojeferson.github.io/cursos_gustavo_guanabara/cursos/javascript/aula14_exercicios/ex017/modelo.html)
+10. [Analisador de números - Javascript](https://devgustavojeferson.github.io/cursos_gustavo_guanabara/cursos/javascript/aula17_exercicios/ex18/modelo.html)
+
 ## 🙏 Agradecimento Especial
 
 - De verdade — tudo o que sei sobre **Git e GitHub** aprendi por meio dos cursos do **Professor Gustavo Guanabara**.  
@@ -32,17 +45,26 @@ Vá conhecer os cursos gratuitos dele — você vai aprender sorrindo!
 
 - 🗃️ cursos
   - 🗂️ **html5_css3**
-    - 📁 desafios
-        - 📁df01
-            - 📄 index.html
-            - ...
-        - 📁
     - 📁 modulo_01
-        - 📁 cap4_aula1
-            - 📄 index.html
-            - 📄 ...
+        - 📁cap04_aula1
+            - 📄 codigo-fonte.html
+            - ...
+        - 📁...
     - 📁...
-    - 📁 5_modulo
+    - 📁 modulo_05
+        - 📁...
+        - 📁 projeto_final
+            - 📄 codigo-fonte.html
+            - 📄 codigo-fonte.css
+            - 📄 codigo-fonte.js
+  - 🗂️ javascript
+    - 📁aula04
+        - 📄 codigo-fonte.js
+    - 📁...
+    - 📁aula17_exercicios
+        - 📄 codigo-fonte.html
+        - 📄 codigo-fonte.css
+        - 📄 codigo-fonte.js
  
 ---
 
@@ -50,7 +72,8 @@ Vá conhecer os cursos gratuitos dele — você vai aprender sorrindo!
 
 - Navegue até a pasta da section desejada (`cursos/html5_css3/modulo_01/cap4_aula1`, por exemplo).  
 - Cada pasta está organizada em seções conforme o curso oficial, garantindo coerência e progressão lógica.  
-- Leia os arquivos `.html` 📄 ➡️ 📁 das pastas em ordem numérica para compreender os conceitos passo a passo.    
+- Observe o código fonte de cada arquivo `código-fonte` 📄 
+- Leia as pastas em ordem numérica para compreender os conceitos passo a passo 📁    
 
 ---
 
@@ -62,18 +85,20 @@ Vá conhecer os cursos gratuitos dele — você vai aprender sorrindo!
     * Visual Studio Code
     * Curso em vídeo
     * HTML5 E CSS3
+    * Node JS
 
 ---
 
 ## 📈 Progresso / Roadmap
 
 - [x] Estrutura inicial criada
-- [ ] Curso de **HTML5** e **CSS3**  
-    - [ ] 1_modulo 
-    - [ ] 2_modulo 
-    - [ ] 3_modulo 
-    - [ ] 4_modulo 
-    - [ ] 5_modulo
+- [x] Curso de **HTML5** e **CSS3**  
+    - [x] 1_modulo 
+    - [x] 2_modulo 
+    - [x] 3_modulo 
+    - [x] 4_modulo 
+    - [x] 5_modulo
+- [x] Curso de **Javascript**
 
 ---
 
